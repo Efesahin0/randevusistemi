@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "gonca",
+      "password": "gnc123",
+      "tckn": "11111111111",
+      "date": "1990-01-01",
+      "role": "doctor"
+    },
+    {
+      "id": 2,
+      "username": "ali",
+      "password": "ali123",
+      "tckn": "22222222222",
+      "date": "1995-05-05",
+      "role": "patient"
+    },
+    {
+      "id": "6f13",
+      "username": "iefiefe",
+      "password": "asdasd123",
+      "tckn": "31166401080",
+      "date": "Mon, 04 Mar 2002 22:00:00 GMT",
+      "role": "patient"
+    },
+    {
+      "id": "0299",
+      "username": "efesahin",
+      "password": "suslanoc1",
+      "tckn": "31166401080",
+      "date": "Tue, 01 Sep 1981 21:00:00 GMT",
+      "role": "patient"
+    },
+    {
+      "id": "f5e4",
+      "username": "selinsrgn",
+      "password": "asdasd123",
+      "tckn": "31166401080",
+      "date": "Mon, 12 Sep 1977 21:00:00 GMT",
+      "role": "patient"
+    },
+    {
+      "id": "1031",
+      "username": "slnsrgn",
+      "password": "asdasd123",
+      "tckn": "31166401080",
+      "date": "Mon, 20 Sep 1982 21:00:00 GMT",
+      "role": "patient"
+    }
+  ],
+  "randevular": [
+    {
+      "randevuid": 1,
+      "name": "Selin",
+      "surname": "Sargın",
+      "tckn": "31166401080",
+      "randevudate": "2024-06-20",
+      "randevusaati": "10:00",
+      "doctor": "Gonca",
+      "randevutürü": "İmplant"
+    },
+    {
+      "id": "5a2c",
+      "randevuid": 1757842166716,
+      "name": "Ahmet",
+      "surname": "Yılmaz",
+      "tckn": "12345678901",
+      "randevudate": "2025-09-20",
+      "randevusaati": "11:00",
+      "doctor": "Gonca",
+      "randevutürü": "Dolgu"
+    },
+    {
+      "id": "cd53",
+      "randevuid": 1757842173133,
+      "name": "Ahmet",
+      "surname": "Yılmaz",
+      "tckn": "12345678901",
+      "randevudate": "2025-09-20",
+      "randevusaati": "11:00",
+      "doctor": "Gonca",
+      "randevutürü": "Dolgu"
+    },
+    {
+      "id": "f0ac",
+      "randevuid": 1757842173446,
+      "name": "Ahmet",
+      "surname": "Yılmaz",
+      "tckn": "12345678901",
+      "randevudate": "2025-09-20",
+      "randevusaati": "11:00",
+      "doctor": "Gonca",
+      "randevutürü": "Dolgu"
+    },
+    {
+      "id": "c697",
+      "randevuid": 1757842174271,
+      "name": "Ahmet",
+      "surname": "Yılmaz",
+      "tckn": "12345678901",
+      "randevudate": "2025-09-20",
+      "randevusaati": "11:00",
+      "doctor": "Gonca",
+      "randevutürü": "Dolgu"
+    },
+    {
+      "id": "72cb",
+      "randevuid": 1757842174467,
+      "name": "Ahmet",
+      "surname": "Yılmaz",
+      "tckn": "12345678901",
+      "randevudate": "2025-09-20",
+      "randevusaati": "11:00",
+      "doctor": "Gonca",
+      "randevutürü": "Dolgu"
+    }
+  ]
+}
