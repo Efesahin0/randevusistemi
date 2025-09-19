@@ -1,0 +1,85 @@
+/* Genel container */
+.appointments-wrapper {
+  padding: 16px;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+/* Tabs içerik */
+.ant-tabs {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Aylık görünüm hücreleri */
+.calendar-cell {
+  padding: 6px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.calendar-cell:hover {
+  background: #f0f7ff;
+}
+
+.calendar-date {
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-align: right;
+}
+
+.calendar-item {
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #e6f4ff;
+  margin-bottom: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.2s;
+}
+
+.calendar-item:hover {
+  background: #bae0ff;
+}
+
+/* Haftalık görünüm */
+.week-day-col {
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  min-height: 120px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.week-day-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.appointment-card {
+  margin-bottom: 8px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.appointment-card:hover {
+  transform: scale(1.02);
+  border-color: #1677ff;
+}
+
+/* Günlük görünüm */
+.day-view-title {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.empty-state {
+  margin-top: 24px;
+}

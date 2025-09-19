@@ -12,6 +12,8 @@ import DoctorMainPage from '../pages/DoctorMainPage';
 import Messages from '../pages/Messages';
 import SendMessage from '../pages/SendMessage';
 import PatientMainPage from '../pages/PatientMainPage';
+import AddAppointmentPage from '../pages/AddAppointmentPage';
+import CalenderPage from '../pages/CalenderPage';
 
 function AppRouter() {
   return (
@@ -32,7 +34,7 @@ function AppRouter() {
                 <Route path="/doctor/patients" element={<PatientsPage />} />
                 <Route path="/doctor/reports" element={<div>Raporlar</div>} />
                 <Route path="/doctor/messages" element={<Messages/>} />
-                <Route path="/doctor/takvim" element={<Messages/>} />
+                <Route path="/doctor/takvim" element={<CalenderPage/>} />
             </Route>
                     
                     
@@ -47,7 +49,7 @@ function AppRouter() {
                     <Route path='/patient' element={<PatientMainPage/>} />
                     <Route path="/patient/profile" element={<ProfilePage />} />
                     <Route path="/patient/appointments" element={<AppointmentsPage />} />
-                    <Route path="/patient/add-delete-appointments" element={<AppointmentsPage />} />
+                    <Route path="/patient/add-delete-appointments" element={<AddAppointmentPage/>} />
                     <Route path="/patient/sendmessage" element={<SendMessage />} />
                 </Route>
             
